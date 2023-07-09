@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+
+class Chicken
+{
+public: //access specifier (public, private, protected)
+  int age;
+	int ID;
+	double weight;
+
+	void print()
+	{
+		cout << age << " " << ID << " "
+			<< weight << endl;
+	}
+};
+
+int main() 
+{
+	return 0;
+}
